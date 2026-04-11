@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block head %}{% endblock %}
+
+{% block body %}
+<main class="loginPage">
+    <section id="loginSection">
+
+        <div class="authCard">
+
+            <form id="loginForm">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required placeholder="name@email.com">
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" minlength="8" required
+                    placeholder="Enter your password">
+
+                <div class="authRow">
+                    <label class="rememberMe" for="rememberMe">
+                        <input type="checkbox" id="rememberMe" name="rememberMe">
+                        <span>Remember me</span>
+                    </label>
+                    <a class="textLink" href="#">Forgot password?</a>
+                </div>
+
+                <button type="submit">Login Now</button>
+            </form>
+        </div>
+
+    </section>
+</main>
+{% endblock %}
