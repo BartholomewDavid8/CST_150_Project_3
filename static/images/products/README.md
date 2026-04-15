@@ -1,0 +1,1 @@
+For images of products, please refer to the following URLs:
